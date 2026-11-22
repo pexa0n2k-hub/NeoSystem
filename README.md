@@ -1,13 +1,11 @@
-# NeoSystem v1.1 — Customization Engine
+# NeoSystem v1.2 — Deep Customization
 
-Mobile-first prototype. New in 1.1:
-- Dedicated screens for all modules
-- Theme presets (Cyber Blue, AMOLED, Liquid Violet, Mint Glass, Rose Quartz)
-- Live accent, transparency, blur, roundness, background darkness, saturation controls
-- Wallpaper import preview and sample gradients
-- Profile save/apply/delete
-- Export/import profiles as JSON
-- Bottom navigation and module routing
+New:
+- Deep customization screen with per-module design entry points
+- Persistent gallery wallpaper (stored locally as data URL)
+- Blur, darkening, saturation, brightness, and vertical positioning controls
+- Save wallpaper settings and remove wallpaper
+- Entry point under More
 
-## GitHub Pages (Android)
-Upload `index.html` to the repository root, then Settings → Pages → Deploy from branch → `main` / root. This is a web prototype and does not directly modify Android/HyperOS settings. Native Android/Shizuku work will be a separate stage.
+Upload/replace `index.html` in your GitHub Pages repository.
+This prototype customizes NeoSystem's own UI, not native HyperOS settings.
