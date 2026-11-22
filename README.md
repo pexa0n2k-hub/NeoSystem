@@ -1,11 +1,13 @@
-# NeoSystem v1.0 Prototype
+# NeoSystem v1.1 — Customization Engine
 
-Mobile-first interface prototype for NeoSystem, a Xiaomi/HyperOS customization hub.
+Mobile-first prototype. New in 1.1:
+- Dedicated screens for all modules
+- Theme presets (Cyber Blue, AMOLED, Liquid Violet, Mint Glass, Rose Quartz)
+- Live accent, transparency, blur, roundness, background darkness, saturation controls
+- Wallpaper import preview and sample gradients
+- Profile save/apply/delete
+- Export/import profiles as JSON
+- Bottom navigation and module routing
 
-## Publish with GitHub Pages
-1. Upload `index.html` to the root of your repository.
-2. In GitHub, open Settings -> Pages.
-3. Choose Deploy from a branch, select `main` and `/ (root)`, then Save.
-4. Open the generated Pages URL on your Xiaomi.
-
-This prototype provides live theme controls, wallpaper preview, blur/transparency/roundness sliders, presets, and local profile saving. It does not modify Android/HyperOS system settings directly; native Android features will be developed separately.
+## GitHub Pages (Android)
+Upload `index.html` to the repository root, then Settings → Pages → Deploy from branch → `main` / root. This is a web prototype and does not directly modify Android/HyperOS settings. Native Android/Shizuku work will be a separate stage.
