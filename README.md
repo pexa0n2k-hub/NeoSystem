@@ -1,11 +1,11 @@
-# NeoSystem v1.2 — Deep Customization
+# NeoSystem v1.3 — Installable PWA
 
-New:
-- Deep customization screen with per-module design entry points
-- Persistent gallery wallpaper (stored locally as data URL)
-- Blur, darkening, saturation, brightness, and vertical positioning controls
-- Save wallpaper settings and remove wallpaper
-- Entry point under More
+Esta versión añade: manifest, icono, instalación desde Chrome Android, modo standalone y caché offline básica.
 
-Upload/replace `index.html` in your GitHub Pages repository.
-This prototype customizes NeoSystem's own UI, not native HyperOS settings.
+## Publicar
+1. Descomprime.
+2. Sube los cuatro archivos a la raíz de tu repo GitHub Pages: `index.html`, `manifest.webmanifest`, `service-worker.js`, `icon.svg`.
+3. Espera el deploy. Abre la página en Chrome Android.
+4. Usa el botón Instalar si aparece; si no, menú ⋮ → Instalar aplicación / Añadir a pantalla principal.
+
+**Limitación:** es una PWA que funciona como app independiente y personaliza su propia interfaz. No modifica ajustes, barra de estado, pantalla de bloqueo ni temas nativos de HyperOS. Para eso necesitamos una app Android nativa y estudiar permisos/APIs compatibles.

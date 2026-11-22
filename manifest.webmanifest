@@ -1,0 +1,12 @@
+{
+  "name": "NeoSystem — Customization Lab",
+  "short_name": "NeoSystem",
+  "description": "Centro visual de personalización NeoSystem",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#070a12",
+  "theme_color": "#070a12",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
